@@ -23,7 +23,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     }
     
     private var coordinates: Coordinates
-    var  LocationCoordinate: CLLocationCoordinate2D {
+    var  locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
                    latitude: coordinates.latitude,
                    longitude: coordinates.longitude)
@@ -32,5 +32,11 @@ struct Landmark: Hashable, Codable, Identifiable {
     struct Coordinates: Hashable, Codable {
         var latitude: Double
         var longitude: Double
+    }
+}
+
+extension Landmark{
+    static func dummyData() -> Landmark{
+        Landmark(id: 1, name: "name name", park: "park", state: "state", description: "description", isFavorite: true, imageName: "icybay", coordinates: Coordinates(latitude: 33.0, longitude: 34.0))
     }
 }
