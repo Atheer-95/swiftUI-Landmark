@@ -10,10 +10,11 @@ import SwiftUI
 struct LandmarkList: View {
     
     @State private var showFavoritesOnly = false
+    
     @ObservedObject var viewModel: ViewModel
+    
     @Environment(\.colorScheme) private var colorScheme
 
-    
     
     var filteredLandmarks: [Landmark] {
         viewModel.landmarks.filter { landmark in
@@ -27,7 +28,7 @@ struct LandmarkList: View {
                 Button {
                     viewModel.reverse()
                 } label: {
-                    Text("Reverse model").foregroundColor(colorScheme == .dark ? .red : .blue)
+                    Text("Reverse model").foregroundColor(colorScheme == .dark ? .red : .green)
                 }
                 
                 Toggle(isOn: $showFavoritesOnly) {
@@ -51,8 +52,10 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
 //            ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
+            LandmarkList(viewModel: ViewModel())
+            .preferredColorScheme(.light)
         LandmarkList(viewModel: ViewModel())
-            .preferredColorScheme(.dark)
+        .preferredColorScheme(.dark)
 //                    .previewDevice(PreviewDevice(rawValue: deviceName))
 //                    .previewDisplayName(deviceName)
 //            }
