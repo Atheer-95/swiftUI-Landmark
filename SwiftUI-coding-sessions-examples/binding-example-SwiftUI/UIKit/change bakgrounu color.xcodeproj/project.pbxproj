@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71004FC22891676A0051795C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FC12891676A0051795C /* AppDelegate.swift */; };
+		71004FC42891676A0051795C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FC32891676A0051795C /* SceneDelegate.swift */; };
+		71004FC62891676A0051795C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FC52891676A0051795C /* ViewController.swift */; };
+		71004FC92891676A0051795C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71004FC72891676A0051795C /* Main.storyboard */; };
+		71004FCB2891676C0051795C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71004FCA2891676C0051795C /* Assets.xcassets */; };
+		71004FCE2891676C0051795C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71004FCC2891676C0051795C /* LaunchScreen.storyboard */; };
+		71004FD92891676C0051795C /* change_bakgrounu_colorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FD82891676C0051795C /* change_bakgrounu_colorTests.swift */; };
+		71004FE32891676C0051795C /* change_bakgrounu_colorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FE22891676C0051795C /* change_bakgrounu_colorUITests.swift */; };
+		71004FE52891676C0051795C /* change_bakgrounu_colorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FE42891676C0051795C /* change_bakgrounu_colorUITestsLaunchTests.swift */; };
+		71004FF2289168180051795C /* ColorsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004FF1289168180051795C /* ColorsViewContoller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71004FD52891676C0051795C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71004FB62891676A0051795C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71004FBD2891676A0051795C;
+			remoteInfo = "change bakgrounu color";
+		};
+		71004FDF2891676C0051795C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71004FB62891676A0051795C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71004FBD2891676A0051795C;
+			remoteInfo = "change bakgrounu color";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71004FBE2891676A0051795C /* change bakgrounu color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "change bakgrounu color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71004FC12891676A0051795C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71004FC32891676A0051795C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71004FC52891676A0051795C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71004FC82891676A0051795C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71004FCA2891676C0051795C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71004FCD2891676C0051795C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71004FCF2891676C0051795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71004FD42891676C0051795C /* change bakgrounu colorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "change bakgrounu colorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71004FD82891676C0051795C /* change_bakgrounu_colorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change_bakgrounu_colorTests.swift; sourceTree = "<group>"; };
+		71004FDE2891676C0051795C /* change bakgrounu colorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "change bakgrounu colorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71004FE22891676C0051795C /* change_bakgrounu_colorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change_bakgrounu_colorUITests.swift; sourceTree = "<group>"; };
+		71004FE42891676C0051795C /* change_bakgrounu_colorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change_bakgrounu_colorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71004FF1289168180051795C /* ColorsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewContoller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71004FBB2891676A0051795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FD12891676C0051795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FDB2891676C0051795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71004FB52891676A0051795C = {
+			isa = PBXGroup;
+			children = (
+				71004FC02891676A0051795C /* change bakgrounu color */,
+				71004FD72891676C0051795C /* change bakgrounu colorTests */,
+				71004FE12891676C0051795C /* change bakgrounu colorUITests */,
+				71004FBF2891676A0051795C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71004FBF2891676A0051795C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71004FBE2891676A0051795C /* change bakgrounu color.app */,
+				71004FD42891676C0051795C /* change bakgrounu colorTests.xctest */,
+				71004FDE2891676C0051795C /* change bakgrounu colorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71004FC02891676A0051795C /* change bakgrounu color */ = {
+			isa = PBXGroup;
+			children = (
+				71004FC12891676A0051795C /* AppDelegate.swift */,
+				71004FC32891676A0051795C /* SceneDelegate.swift */,
+				71004FC52891676A0051795C /* ViewController.swift */,
+				71004FF1289168180051795C /* ColorsViewContoller.swift */,
+				71004FC72891676A0051795C /* Main.storyboard */,
+				71004FCA2891676C0051795C /* Assets.xcassets */,
+				71004FCC2891676C0051795C /* LaunchScreen.storyboard */,
+				71004FCF2891676C0051795C /* Info.plist */,
+			);
+			path = "change bakgrounu color";
+			sourceTree = "<group>";
+		};
+		71004FD72891676C0051795C /* change bakgrounu colorTests */ = {
+			isa = PBXGroup;
+			children = (
+				71004FD82891676C0051795C /* change_bakgrounu_colorTests.swift */,
+			);
+			path = "change bakgrounu colorTests";
+			sourceTree = "<group>";
+		};
+		71004FE12891676C0051795C /* change bakgrounu colorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71004FE22891676C0051795C /* change_bakgrounu_colorUITests.swift */,
+				71004FE42891676C0051795C /* change_bakgrounu_colorUITestsLaunchTests.swift */,
+			);
+			path = "change bakgrounu colorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71004FBD2891676A0051795C /* change bakgrounu color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71004FE82891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu color" */;
+			buildPhases = (
+				71004FBA2891676A0051795C /* Sources */,
+				71004FBB2891676A0051795C /* Frameworks */,
+				71004FBC2891676A0051795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "change bakgrounu color";
+			productName = "change bakgrounu color";
+			productReference = 71004FBE2891676A0051795C /* change bakgrounu color.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71004FD32891676C0051795C /* change bakgrounu colorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71004FEB2891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu colorTests" */;
+			buildPhases = (
+				71004FD02891676C0051795C /* Sources */,
+				71004FD12891676C0051795C /* Frameworks */,
+				71004FD22891676C0051795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71004FD62891676C0051795C /* PBXTargetDependency */,
+			);
+			name = "change bakgrounu colorTests";
+			productName = "change bakgrounu colorTests";
+			productReference = 71004FD42891676C0051795C /* change bakgrounu colorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71004FDD2891676C0051795C /* change bakgrounu colorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71004FEE2891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu colorUITests" */;
+			buildPhases = (
+				71004FDA2891676C0051795C /* Sources */,
+				71004FDB2891676C0051795C /* Frameworks */,
+				71004FDC2891676C0051795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71004FE02891676C0051795C /* PBXTargetDependency */,
+			);
+			name = "change bakgrounu colorUITests";
+			productName = "change bakgrounu colorUITests";
+			productReference = 71004FDE2891676C0051795C /* change bakgrounu colorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71004FB62891676A0051795C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					71004FBD2891676A0051795C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					71004FD32891676C0051795C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 71004FBD2891676A0051795C;
+					};
+					71004FDD2891676C0051795C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 71004FBD2891676A0051795C;
+					};
+				};
+			};
+			buildConfigurationList = 71004FB92891676A0051795C /* Build configuration list for PBXProject "change bakgrounu color" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71004FB52891676A0051795C;
+			productRefGroup = 71004FBF2891676A0051795C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71004FBD2891676A0051795C /* change bakgrounu color */,
+				71004FD32891676C0051795C /* change bakgrounu colorTests */,
+				71004FDD2891676C0051795C /* change bakgrounu colorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71004FBC2891676A0051795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71004FCE2891676C0051795C /* LaunchScreen.storyboard in Resources */,
+				71004FCB2891676C0051795C /* Assets.xcassets in Resources */,
+				71004FC92891676A0051795C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FD22891676C0051795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FDC2891676C0051795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71004FBA2891676A0051795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71004FC62891676A0051795C /* ViewController.swift in Sources */,
+				71004FC22891676A0051795C /* AppDelegate.swift in Sources */,
+				71004FC42891676A0051795C /* SceneDelegate.swift in Sources */,
+				71004FF2289168180051795C /* ColorsViewContoller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FD02891676C0051795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71004FD92891676C0051795C /* change_bakgrounu_colorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71004FDA2891676C0051795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71004FE32891676C0051795C /* change_bakgrounu_colorUITests.swift in Sources */,
+				71004FE52891676C0051795C /* change_bakgrounu_colorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71004FD62891676C0051795C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71004FBD2891676A0051795C /* change bakgrounu color */;
+			targetProxy = 71004FD52891676C0051795C /* PBXContainerItemProxy */;
+		};
+		71004FE02891676C0051795C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71004FBD2891676A0051795C /* change bakgrounu color */;
+			targetProxy = 71004FDF2891676C0051795C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71004FC72891676A0051795C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71004FC82891676A0051795C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71004FCC2891676C0051795C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71004FCD2891676C0051795C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71004FE62891676C0051795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71004FE72891676C0051795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71004FE92891676C0051795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "change bakgrounu color/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71004FEA2891676C0051795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "change bakgrounu color/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71004FEC2891676C0051795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/change bakgrounu color.app/change bakgrounu color";
+			};
+			name = Debug;
+		};
+		71004FED2891676C0051795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/change bakgrounu color.app/change bakgrounu color";
+			};
+			name = Release;
+		};
+		71004FEF2891676C0051795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "change bakgrounu color";
+			};
+			name = Debug;
+		};
+		71004FF02891676C0051795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R763TD6HSW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.change-bakgrounu-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "change bakgrounu color";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71004FB92891676A0051795C /* Build configuration list for PBXProject "change bakgrounu color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71004FE62891676C0051795C /* Debug */,
+				71004FE72891676C0051795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71004FE82891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71004FE92891676C0051795C /* Debug */,
+				71004FEA2891676C0051795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71004FEB2891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu colorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71004FEC2891676C0051795C /* Debug */,
+				71004FED2891676C0051795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71004FEE2891676C0051795C /* Build configuration list for PBXNativeTarget "change bakgrounu colorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71004FEF2891676C0051795C /* Debug */,
+				71004FF02891676C0051795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71004FB62891676A0051795C /* Project object */;
+}
